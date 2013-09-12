@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-ClassPath: .
+Built-By: flaccid
+Tool: Bnd-1.15.0
+Bundle-Name: com.rightscale.cpbm.cs
+Import-Library: org.springframework.spring;version="[3.0, 3.5)"
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: Example
+Application-ResourceVersion: 1.0.0
+Build-Jdk: 1.6.0_45
+Bundle-Version: 0.0.1
+Bnd-LastModified: 1378962984852
+Bundle-ManifestVersion: 2
+Import-Package: com.citrix.cpbm.platform.admin.service;version="[2.0,3
+ )",com.citrix.cpbm.platform.admin.service.utils;version="[2.0,3)",com
+ .citrix.cpbm.platform.exception;version="[2.0.0,3.0.0]",com.citrix.cp
+ bm.platform.model;version="[2.0.0,3.0.0]",com.citrix.cpbm.platform.sp
+ i;version="[2.0.0,3.0.0]",com.citrix.cpbm.platform.spi.service;versio
+ n="[2.0.0,3.0.0]",com.vmops.model;version="[2.0.0,3.0.0]",com.vmops.s
+ ervice;version="[2.0.0,3.0.0]",javax.annotation;version="[1.0,2)",jav
+ ax.servlet;version="[3.0.0,3.1.0)",org.apache.log4j,org.osgi.framewor
+ k;version="[1.7,2)",org.springframework.beans;version="[3.0,4)",org.s
+ pringframework.beans.factory;version="[3.0,4)",org.springframework.be
+ ans.factory.annotation;version="[3.0,4)",org.springframework.beans.fa
+ ctory.config;version="[3.0,4)",org.springframework.context;version="[
+ 3.0,4)",org.springframework.context.annotation;version="[3.0,4)",org.
+ springframework.core.io;version="[3.0,4)",org.springframework.osgi.se
+ rvice.exporter;version="[1.2,2)",org.springframework.stereotype;versi
+ on="[3.0,4)"
+Bundle-SymbolicName: com.rightscale.cpbm.cs
+
