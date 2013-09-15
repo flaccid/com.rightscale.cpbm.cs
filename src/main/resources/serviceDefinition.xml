@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  #%L
+  Citrix CloudPortal Business Manager Rightscale Connector
+  %%
+  Copyright (C) 2013 RightScale, Inc.
+  %%
+  Licensed under the Apache 2 license. See LICENSE for more details.
+  #L%
+-->
+
 <Service>
 	<Bootstrap>
 		<Id type="CLOUD" singleton="false" category="IAAS">com.rightscale.cpbm.cs</Id>
@@ -14,7 +24,7 @@
 			<Property id="endpoint" type="URL" encrypted="false" validation='{"required":true}' />
 			<Property id="username" type="String" encrypted="false" validation='{"required":true}'/>
 			<Property id="password" type="String" encrypted="true" validation='{"required":true}' />
-			<Property id="accountid" type="Number" encrypted="false" validation='{"required":true,"digit":false,"minlen":5,"maxlen":10}' />
+			<Property id="accountid" type="Number" encrypted="false" validation='{"required":true,"digit":false,"minlen":3,"maxlen":12}' />
 		</Configuration>
 		<AccountConfiguration>
 			<Property id="myAccountConfig1"  type="String" encrypted="false" validation='{"required":true}' />
